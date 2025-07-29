@@ -4,7 +4,9 @@
       <source src="video.mp4" type="video/mp4">
     </video>
     <!-- BG SPARKS LAYER -->
-    <img src="bg-sparks.svg" alt="" class="bg-sparks" />
+    <!-- <img src="bg-sparks.svg" alt="" class="bg-sparks" /> -->
+    <img src="particles-top.svg" alt="" class="particles-top" />
+    <img src="particles-down.svg" alt="" class="particles-down" />
     <span class="button-text">Adhérer maintenant</span>
   </div>
 </div>
@@ -65,7 +67,7 @@ body {
     height: 100%;
     mix-blend-mode: overlay;
   }
-  .video-container .bg-sparks {
+  /* .video-container .bg-sparks {
     position: absolute;
     top: -15px;
     left: 0px;
@@ -74,9 +76,24 @@ body {
     z-index: 50;
     mix-blend-mode: normal;
     object-fit: contain;
+} */
+
+.particles-top {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 100%;
+  height: 18px;
+  z-index: 999;
 }
-
-
+.particles-down {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 27px;
+  z-index: 999;
+}
 
   .button-text {
     position: absolute;
