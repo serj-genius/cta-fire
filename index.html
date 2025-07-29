@@ -17,6 +17,9 @@
     container.addEventListener('mouseenter', function() {
       video.currentTime = 0;
     });
+    container.addEventListener('mousedown', function() {
+      video.currentTime = 0;
+    });
   });
 </script>
 
@@ -47,6 +50,10 @@ body {
   .video-container:hover {
     cursor: pointer;
     transform: scale(1.02);
+  }
+  .video-container:active {
+    cursor: pointer;
+    transform: scale(0.98);
   }
 
   .video-container video {
