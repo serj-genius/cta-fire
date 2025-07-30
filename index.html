@@ -4,8 +4,8 @@
       <source src="button-video-bg.m4v" type="video/mp4">
     </video>
     <!-- BG SPARKS LAYER -->
-    <img src="particles_top.webp" alt="" class="particles-top" />
-    <img src="particles_down.webp" alt="" class="particles-down" />
+    <!-- <img src="particles_top.webp" alt="" class="particles-top" />
+    <img src="particles_down.webp" alt="" class="particles-down" /> -->
     <img src="btn-deco.svg" alt="" class="btn-deco" />
     <span class="button-text">Adhérer maintenant</span>
   </div>
@@ -40,8 +40,8 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    mask-image: url(cta-mask.svg);
-    -webkit-mask-image: url(cta-mask.svg);
+    mask-image: url(btn-mask.svg);
+    -webkit-mask-image: url(btn-mask.svg);
     mask-size: 100% 100%;
     -webkit-mask-size: 100% 100%;
     mask-repeat: no-repeat;
@@ -80,7 +80,7 @@ body {
     object-fit: contain;
 } */
 
-.particles-top {
+/* .particles-top {
   position: absolute;
   top: 4px;
   left: 0;
@@ -95,7 +95,7 @@ body {
   width: 100%;
   height: 27px;
   z-index: 999;
-}
+} */
 
   .button-text {
     position: absolute;
@@ -126,13 +126,13 @@ body {
   }
   
   .btn-deco {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1000;
-  pointer-events: none;
-  object-fit: contain;
-}
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    pointer-events: none;
+    object-fit: contain;
+  }
 </style>
