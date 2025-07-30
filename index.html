@@ -3,7 +3,7 @@
     <video autoplay loop muted playsinline width="320" height="120">
       <source src="button-video-bg.m4v" type="video/mp4">
     </video>
-    
+    <div class="video-overlay"></div>
     <!-- BG SPARKS LAYER -->
     <img src="btn-deco.svg" alt="" class="btn-deco" />
     <span class="button-text">Adhérer maintenant</span>
@@ -108,5 +108,11 @@ body {
   position: absolute;
   width: 100%;
   z-index: 1000;
+}
+.video-overlay {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background: #ff000040;
 }
 </style>
