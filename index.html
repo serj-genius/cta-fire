@@ -3,9 +3,8 @@
     <video autoplay loop muted playsinline width="320" height="120">
       <source src="button-video-bg.m4v" type="video/mp4">
     </video>
+    
     <!-- BG SPARKS LAYER -->
-    <!-- <img src="particles_top.webp" alt="" class="particles-top" />
-    <img src="particles_down.webp" alt="" class="particles-down" /> -->
     <img src="btn-deco.svg" alt="" class="btn-deco" />
     <span class="button-text">Adhérer maintenant</span>
   </div>
@@ -32,7 +31,6 @@ body {
   box-sizing: border-box;
 }
   .video-container {
-    /* width: clamp(160px, 40vw, 385px); */
     width: clamp(160px, 60vw, 385px);
     height: 120px;
     position: relative;
@@ -48,8 +46,6 @@ body {
     -webkit-mask-repeat: no-repeat;
     background: #D41D18;
     transform: scale(1);
-    /* --shadow-offset: clamp(10px, 3vw, 30px);
-    box-shadow: inset 0 calc(-1 * var(--shadow-offset)) 0px 3px #ffffffd9; */
   }
   .video-container:hover {
     cursor: pointer;
@@ -59,7 +55,6 @@ body {
     cursor: pointer;
     transform: scale(0.98);
   }
-
   .video-container video {
     object-fit: fill;
     position: absolute;
@@ -69,34 +64,6 @@ body {
     height: 100%;
     mix-blend-mode: overlay;
   }
-  /* .video-container .bg-sparks {
-    position: absolute;
-    top: -15px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 50;
-    mix-blend-mode: normal;
-    object-fit: contain;
-} */
-
-/* .particles-top {
-  position: absolute;
-  top: 4px;
-  left: 0;
-  width: 100%;
-  height: 18px;
-  z-index: 999;
-}
-.particles-down {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 27px;
-  z-index: 999;
-} */
-
   .button-text {
     position: absolute;
     left: 0;
@@ -118,13 +85,11 @@ body {
     text-align: center;
     line-height: 90%;
   }
-
   .video-masked-button {
     height: 100%;
     display: flex;
     align-items: center;
   }
-  
   .btn-deco {
     position: absolute;
     top: 0;
